@@ -14,6 +14,10 @@ a:hover {
   text-decoration: none;
 }
 
+h6 {
+  font-size: 17px;
+}
+
 .love-wrapper {
   max-width: 1350px;
 }
@@ -167,7 +171,95 @@ h4 {
   color: rgba(39, 39, 39, 0.5);
 }
 
-.card-img-wrapper {
+.img-more-stories {
   width: 95px;
   height: 95px;
+}
+
+.img-opinion {
+  width: 63px;
+  height: 63px;
+}
+
+.opinion-credit {
+  color: #555;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.red-bg-link:hover {
+  color: #f72210;
+}
+
+.img-debate {
+  height: 95px;
+  flex: 0 0 95px;
+  margin-right: 15px;
+}
+
+.deb1 {
+  background: 50% / cover url('img/debate1.webp');
+}
+
+.deb2 {
+  background: 50% / cover url('img/debate3.webp');
+}
+
+.dem-border {
+  border-top: #f92869 solid 4px;
+}
+
+.rep-border {
+  border-top: #8dc3fd solid 4px;
+}
+
+.debate-author {
+  margin-top: 3px;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.debate-author a {
+  color: #000;
+  font-weight: 700;
+}
+
+.debate-adjust {
+  right: 0;
+  top: -15px;
+}
+
+.versus {
+  background-color: #000;
+  width: 40px;
+  height: 40px;
+  color: #d6d6d6;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+
+.sign-up {
+  font-size: 19px;
+}
+
+.sign-up-header {
+  color: #333;
+  font-size: 18px;
+}
+
+.sign-up-button {
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.sign-up-logo {
+  height: 28px;
+  flex: 0 0 29px;
+}
+
+.sign-up p {
+  font-family: 'Roboto Condensed', sans-serif;
 }
