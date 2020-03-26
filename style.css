@@ -45,17 +45,18 @@ h6 {
   color: #f4f4f4;
 }
 
-.header-left > p {
+.header-left date {
   margin-bottom: 10px;
-  font-size: 16px;
+  font: 16px/34px "Roboto Condensed", sans-serif;
   font-weight: 400;
+  color: #fff;
 }
 
 .header-left > a:nth-child(1) {
   font-size: 15px;
 }
 
-img {
+.cloud-icon > img {
   height: 24px;
   width: 24px;
 }
@@ -98,9 +99,9 @@ img {
   padding: 20px 30px 0 30px;
 }
 
-.stories {
+/* .stories {
   height: 2963px;
-}
+} */
 
 .block-title {
   padding-bottom: 11px;
@@ -262,4 +263,40 @@ h4 {
 
 .sign-up p {
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.pg-bottom-cta {
+  font-size: 18px;
+}
+
+.pg-bottom-cta:hover {
+  background-color: #dddddd;
+}
+
+/* .background-img {
+  background-color: #000;
+  background-image: url('img/pagebottom2.webp');
+  background-position: 50% 100%;
+} */
+
+.background-img {
+  overflow-x: hidden;
+}
+
+.img-bg-contra {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cb-fix {
+  background-color: #f72210;
+  color: #fff;
+}
+
+.cb-fix2 {
+  color: #f72210;
+}
+
+.cb-fix-3 {
+  bottom: 0;
 }

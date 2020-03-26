@@ -25,9 +25,11 @@
                         <picture class="cloud-icon">
                             <img src="img/small-cloud.png" alt="Weather forecast, partly cloudy">
                         </picture>
-                        29°C Petropolis, BR >
+                        29° Petrópolis, BR >
                     </a>
-                    <p class="d-block">Thu, Mar 19, 2020</p>
+                    <div>
+                        <date class="d-block">Thu, Mar 19, 2020</date>
+                    </div>
                 </div>
                 <div class="logo-wrapper align-self-center">
                     <a class="navbar-brand logo" href="#">
@@ -114,7 +116,7 @@
 
         </header>
         <main class="main container-fluid">
-            <div class="row stories">
+            <div class="stories row sticky-scroll">
                 <div class="col">
                     <div class="block-title">
                         FEATURED STORIES
@@ -126,7 +128,7 @@
                             <div class="position-absolute category-label">NEWS</div>
                         </a>
                         <div class="card-body">
-                            <h4 class="card-title"><a class="under-link" href="#">COVID-19 Pandemic
+                            <h4 class="card-title under-link"><a class="" href="#">COVID-19 Pandemic
                                     Could Cost U.S. $7 Trillion, Professor
                                     Estimates</a>
                             </h4>
@@ -167,13 +169,13 @@
                     </div>
                     <h6><a class="under-link" href="#">Is Hydroxychloroquine the Answer to COVID-19 Pandemic? Racing for
                             a Cure</a></h6>
-                    <div class="card">
+                    <div class="card mb-4">
                         <a href="#" class="position-relative">
                             <img src="img/ft-stories-img4.webp" class="card-img-top rounded-0 h-100"
                                 alt="Image of a big house on a hill">
                             <div class="position-absolute category-label text-primary">SPONSORED INSIGHT</div>
                         </a>
-                        <div class="card-body">
+                        <div class="card-body border p-4">
                             <h4 class="card-title"><a class="under-link" href="#">Who Leads the Field in Dependency
                                     Treatment in 2020?</a>
                             </h4>
@@ -183,13 +185,13 @@
                                 your life? Find out more.</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card mb-4">
                         <a href="#" class="position-relative">
                             <img src="img/ft-stories-img5.jpg" class="card-img-top h-100"
                                 alt="Image of people wearing masks and goggles pass by a COVID-19 screening tent outside the Brooklyn Hospital Center on March 20, 2020 in the Brooklyn borough of New York.">
                             <div class="position-absolute category-label text-primary">SPONSORED INSIGHT</div>
                         </a>
-                        <div class="card-body">
+                        <div class="card-body border p-4">
                             <h4 class="card-title"><a class="under-link" href="#">Newsweek James Bond Special
                                     Edition</a>
                             </h4>
@@ -200,12 +202,12 @@
                                 guide to every Bond Girl, villain and getaway car in the canon.</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card mb-4">
                         <a href="#">
                             <img src="img/ft-stories-img6.png" class="card-img-top rounded-0 h-100"
                                 alt="Image of people wearing masks and goggles pass by a COVID-19 screening tent outside the Brooklyn Hospital Center on March 20, 2020 in the Brooklyn borough of New York.">
                         </a>
-                        <div class="card-body">
+                        <div class="card-body border p-4">
                             <h4 class="card-title"><a class="under-link" href="#">Newsweek AMPLIFY Launches Strategic
                                     Partnership Solutions
                                     for Brands</a>
@@ -594,8 +596,8 @@
                     </div>
                     <div class="card border bg-light m-4">
                         <div class="card-body p-4 sign-up">
-                            <div class="d-flex align-items-center sign-up-cta">
-                                <img src="img/sign-up-logo.png" alt="sign-up logo" class="sign-up-logo">
+                            <div class="d-flex">
+                                <img src="img/sign-up-logo.png" alt="sign-up logo" class="sign-up-logo mt-2">
                                 <h5 class="font-weight-bold sign-up-header px-2">SIGN UP FOR OUR NEWSLETTER</h5>
                             </div>
                             <a href="#"
@@ -653,26 +655,155 @@
 
 
             </div>
+            <div class="container-fluid">
+                <div>
+                    <div class="d-flex justify-content-center align-items-center border-bottom">
+                        <img src="img/sign-up-logo.png" alt="sign-up logo" class="sign-up-logo mb-2">
+                        <h5 class="font-weight-bold sign-up-header px-2">IN THE MAGAZINE</h5>
+                    </div>
+                    <div class="row align-items-baseline">
+                        <div class="col-lg-3">
+                            <article class="card">
+                                <a href="#" class="position-relative">
+                                    <img class="w-100" src="img/pagebottom1.webp" class="card-img-top"
+                                        alt="Cover of this week's edition displaying Bernie Sanders smiling and the following headline: 'Is Bernie Right About Medicare for All?'">
+                                    <div class="position-absolute category-label text-danger">MARCH 27 ISSUE</div>
+                                </a>
+                                <div class="card-body p-0 bg-light">
+                                    <a href="#"
+                                        class="pg-bottom-cta d-block pt-2 pb-2 text-center w-100 font-weight-bold">
+                                        SEE ALL FEATURES >
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
 
+                        <div class="col-lg-3">
+                            <article class="card">
+                                <div class="background-img">
+                                    <img class="position-relative img-bg-contra" src="img/pagebottom2.webp"
+                                        alt="Bernie Sanders raises a closed fist up in the air on a stand in front of a crowd">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="mt-2 mb-2">
+                                        <span class="cb-fix font-weight-bold d-inline-block px-2">FEATURES</span><a
+                                            class="cb-fix2 font-weight-bold px-2" href="#">HEALTH</a>
+                                    </div>
+                                    <h5 class="card-title under-link"><a class="" href="#">Is Bernie Sanders Right About
+                                            Medicare For All?</a>
+                                    </h5>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+                            <article class="card">
+                                <div class="background-img">
+                                    <img class="position-relative img-bg-contra" src="img/pagebottom3.webp"
+                                        alt="A stock broker in the middle of the day trade">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="mt-2 mb-2">
+                                        <span class="cb-fix font-weight-bold d-inline-block px-2">FEATURES</span><a
+                                            class="cb-fix2 font-weight-bold px-2" href="#">BUSINESS</a>
+                                    </div>
+                                </div>
+                                <h5 class="card-title under-link"><a class="" href="#">How to Stay Sane In a Crazy
+                                        Market</a>
+                                </h5>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+                            <article class="card">
+                                <div class="background-img">
+                                    <img class="position-relative img-bg-contra" src="img/pagebottom4.webp"
+                                        alt="A montage shows Bernie Sanders, Joe Biden and Hollywood sign">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="mt-2 mb-2">
+                                        <span class="cb-fix font-weight-bold d-inline-block px-2">PERISCOPE</span><a
+                                            class="cb-fix2 font-weight-bold px-2" href="#">CULTURE</a>
+                                    </div>
+                                </div>
+                                <h5 class="card-title under-link"><a class="" href="#">Sanders Is Beating Biden In the
+                                        Race for Donations From Hollywood's Elite</a>
+                                </h5>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="row align-items-start">
+                        <div class="col-lg-3">
+                            <article class="card">
+                                <div class="background-img">
+                                    <img class="position-relative img-bg-contra" src="img/pagebottom5.webp"
+                                        alt="Computer generated representation of coronavirus">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="mt-2 mb-2">
+                                        <span class="cb-fix font-weight-bold d-inline-block px-2">HORIZONS</span><a
+                                            class="cb-fix2 font-weight-bold px-2" href="#">CULTURE</a>
+                                    </div>
+                                </div>
+                                <h5 class="card-title under-link"><a class="" href="#">Past Pandemics By The Numbers and
+                                        How Coronavirus Fits In</a>
+                                </h5>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+                            <article class="card">
+                                <div class="background-img">
+                                    <img class="position-relative img-bg-contra" src="img/pagebottom6.webp"
+                                        alt="Photo of an Olympic Stadium">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="mt-2 mb-2">
+                                        <span class="cb-fix font-weight-bold d-inline-block px-2">DOWNTIME</span><a
+                                            class="cb-fix2 font-weight-bold px-2" href="#">CULTURE</a>
+                                    </div>
+                                </div>
+                                <h5 class="card-title under-link"><a class="" href="#">The Grandest Olympic Stadiums of
+                                        All Time</a>
+                                </h5>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+                            <article class="card">
+                                <div class="background-img">
+                                    <img class="position-relative img-bg-contra" src="img/pagebottom7.webp"
+                                        alt="Drawing of Elaine Welteroth's face">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="mt-2 mb-2">
+                                        <span class="cb-fix font-weight-bold d-inline-block px-2">DOWNTIME</span><a
+                                            class="cb-fix2 font-weight-bold px-2" href="#">CULTURE</a>
+                                    </div>
+                                </div>
+                                <h5 class="card-title under-link"><a class="" href="#">Project Runway's Elaine Welteroth
+                                        On How Fashion Can Be a Force for Change</a>
+                                </h5>
+                            </article>
+                        </div>
+                        <div class="col-lg-3">
+                            <article class="card">
+                                <div class="background-img position-relative">
+                                    <img class="position-relative img-bg-contra" src="img/pagebottom8.jpg"
+                                        alt="A couple stands where once was a house and stares at the horizon sky at dawn">
+                                    <a class="position-absolute cb-fix-3" href="#">
+                                        <span class="cb-fix font-weight-bold d-inline-block pt-1 pb-1 px-2">IN
+                                            FOCUS</span>
+                                    </a>
+                                </div>
+                                <h5 class="card-title under-link pt-2 pb-2"><a class="" href="#">THE AFTERMATH</a>
+                                </h5>
+                            </article>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe-block">
+            </div>
         </main>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script type="text/javascript" src="bootstrap-4.4.1-dist/js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
 </body>
