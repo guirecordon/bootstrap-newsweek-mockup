@@ -3,6 +3,10 @@ body {
   line-height: 20px;
 }
 
+h5 {
+  font-size: 22px;
+}
+
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -25,7 +29,7 @@ h6 {
 
 .top-header {
   background-color: #f72210;
-  font-family: 'Roboto Condensed', sans-serif;
+  /* font-family: 'Roboto Condensed', sans-serif; */
   font-size: 18px;
   font-weight: bold;
   height: 95px;
@@ -87,7 +91,7 @@ h6 {
   padding-right: 80px;
   margin: 15px 0;
   font-weight: bold;
-  font-family: 'Roboto Condensed', sans-serif;
+  /* font-family: 'Roboto Condensed', sans-serif; */
 }
 
 .search-bar {
@@ -260,6 +264,7 @@ h4 {
 .sign-up-logo {
   height: 28px;
   flex: 0 0 29px;
+  border: 1px solid #fff;
 }
 
 .sign-up p {
@@ -301,4 +306,25 @@ h4 {
 
 .cb-fix-3 {
   bottom: 0;
+}
+
+.sign-up-logo-back {
+  left: 4px;
+  top: 4px;
+  z-index: -1;
+}
+
+.icon-slide {
+  width: 70px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e9212e;
+  text-indent: 5px;
+  background: url('img/icon-slideshows-nw.png') 0 0/contain no-repeat;
+}
+
+.category-title {
+  color: #f72210;
 }
