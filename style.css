@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  line-height: 20px;
 }
 
 p {
@@ -291,6 +292,7 @@ h4 {
 .cb-fix {
   background-color: #f72210;
   color: #fff;
+  padding-top: 3px;
 }
 
 .cb-fix2 {
