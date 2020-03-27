@@ -328,3 +328,74 @@ h4 {
 .category-title {
   color: #f72210;
 }
+
+.sub-left {
+  padding: 30px;
+}
+
+.sub-right {
+  padding-left: 120px;
+}
+
+.sub-img-fix {
+  top: 13px;
+  transform: translateX(-50%);
+}
+
+.sub-btn {
+  background-color: #f72210;
+}
+
+.five-left {
+  left: 0;
+  transform: translateX(-30%);
+}
+
+.five-right {
+  padding: 30px;
+}
+
+.footer-logo {
+  fill: #f72210;
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+}
+
+.footer-social {
+  font-size: 1.5em;
+  color: #555;
+}
+
+.footer-social:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+.face:hover {
+  color: rgba(46, 46, 150, 0.966);
+}
+
+.tweet:hover {
+  color: rgba(22, 189, 231, 0.801);
+}
+
+.insta:hover {
+  background: -webkit-linear-gradient(rgb(238, 6, 180), rgb(4, 26, 87));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tumb:hover {
+  background: -webkit-linear-gradient(rgb(157, 194, 88), rgb(4, 26, 87));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.link:hover {
+  background: -webkit-linear-gradient(rgb(133, 180, 184), rgb(4, 26, 87));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
