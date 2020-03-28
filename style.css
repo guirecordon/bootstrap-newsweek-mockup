@@ -19,6 +19,10 @@ a:hover {
   text-decoration: none;
 }
 
+li {
+  display: inline;
+}
+
 h6 {
   font-size: 17px;
 }
@@ -287,6 +291,7 @@ h4 {
 
 .background-img {
   overflow-x: hidden;
+  height: 100%;
 }
 
 .img-bg-contra {
@@ -329,8 +334,14 @@ h4 {
   color: #f72210;
 }
 
+.subscribe-block {
+  padding: 0 45px 45px 45px;
+}
+
 .sub-left {
+  background-color: #f3f3f3;
   padding: 30px;
+  /* padding: 30px; */
 }
 
 .sub-right {
@@ -355,11 +366,25 @@ h4 {
   padding: 30px;
 }
 
+footer {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+footer .pow {
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
 .footer-logo {
   fill: #f72210;
   display: block;
   width: 236px;
   height: 36px;
+}
+
+.logo-fix {
   margin-right: 15px;
   margin-bottom: 12px;
 }
@@ -375,11 +400,16 @@ h4 {
 }
 
 .face:hover {
-  color: rgba(46, 46, 150, 0.966);
+  background: -webkit-linear-gradient(rgb(46, 46, 150), rgb(132, 197, 162));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .tweet:hover {
   color: rgba(22, 189, 231, 0.801);
+  background: -webkit-linear-gradient(rgba(22, 189, 231, 0.801), rgb(201, 128, 110));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .insta:hover {
@@ -398,4 +428,16 @@ h4 {
   background: -webkit-linear-gradient(rgb(133, 180, 184), rgb(4, 26, 87));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 991px) {
+  .tokyo-girl {
+    max-width: 330px;
+    margin: 0 auto;
+    padding-top: 80px;
+  }
+
+  .img-bg-contra {
+    max-height: 162px;
+  }
 }
