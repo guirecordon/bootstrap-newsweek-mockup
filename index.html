@@ -20,8 +20,8 @@
         <header>
 
             <nav class="d-flex justify-content-between align-items-center top-header">
-                <div class="align-self-center header-left">
-                    <a class="d-block" href="#">
+                <div class="align-self-center header-left d-lg-block d-none">
+                    <a class="d-lg-block d-sm-none" href="#">
                         <picture class="cloud-icon">
                             <img src="img/small-cloud.png" alt="Weather forecast, partly cloudy">
                         </picture>
@@ -31,7 +31,7 @@
                         <date class="d-block">Thu, Mar 19, 2020</date>
                     </div>
                 </div>
-                <div class="logo-wrapper align-self-center">
+                <div class="logo-wrapper d-flex justify-content-center align-items-center">
                     <a class="navbar-brand logo" href="#">
                         <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                             x="0px" y="0px" viewBox="0 0 395.6 60" xml:space="preserve">
@@ -42,76 +42,94 @@
                             </g>
                         </svg>
                     </a>
+                    <div
+                        class="align-self-center header-left d-none d-sm-flex justify-content-center align-items-center d-lg-none">
+                        <a class="" href="#">
+                            <picture class="cloud-icon">
+                                <img src="img/small-cloud.png" alt="Weather forecast, partly cloudy">
+                            </picture>
+                            29° Petrópolis, BR >
+                        </a>
+                    </div>
                 </div>
-                <div class="text-uppercase align-self-end right-header">
-                    <a class="pr-2" href="#">sign in</a>
-                    <a class="d-inline-block px-2 bg-white text-danger" href="#">subscribe ></a>
+                <div
+                    class="text-uppercase align-self-lg-end right-header d-flex justify-content-center align-items-center">
+                    <a class="pr-2 sign-in-fix" href="#">sign in</a>
+                    <a class="d-inline-block px-2 bg-white text-danger" href="#">subscribe <span class="d-none d-sm-inline-block">></span></a>
+                    <button class="navbar-toggler d-lg-none text-white d-flex justify-content-center align-items-center"
+                        type="button" data-toggle="collapse" data-target="#navbarSite">
+                        <span class="navbar-toggler-icon d-flex justify-content-center align-items-center"><i
+                                class="fas fa-bars"></i></span>
+                    </button>
                 </div>
             </nav>
             <nav class="navbar-expand-lg border-bottom position-relative">
-                <div class="diagonal-red-bar position-absolute"></div>
-                <ul class="navbar-nav menu-style">
-                    <li class="nav-item flex-grow-1 text-center">
-                        <a class=" ">
-                            U.S.
-                        </a>
-                    </li>
-                    <li class="nav-item border-left flex-grow-1 text-center">
-                        <a class=" ">
-                            World
-                        </a>
-                    </li>
-                    <li class="nav-item border-left flex-grow-1 text-center">
-                        <a class=" ">
-                            Business
-                        </a>
-                    </li>
-                    <li class="nav-item border-left flex-grow-1 text-center">
-                        <a class=" ">
-                            Tech & Science
-                        </a>
-                    </li>
-                    <li class="nav-item border-left flex-grow-1 text-center">
-                        <a class=" ">
-                            Culture
-                        </a>
-                    </li>
-                    <li class="nav-item border-left flex-grow-1 text-center">
-                        <a class=" ">
-                            Newsgeek
-                        </a>
-                    </li>
-                    <li class="nav-item border-left flex-grow-1 text-center">
-                        <a class=" ">
-                            Sports
-                        </a>
-                    </li>
-                    <li class="nav-item border-left flex-grow-1 text-center">
-                        <a class=" ">
-                            Health
-                        </a>
-                    </li>
-                    <li class="nav-item border-left flex-grow-1 text-center">
-                        <a class=" ">
-                            The Debate
-                        </a>
-                    </li>
-                    <li class="nav-item border-left flex-grow-1 text-center">
-                        <a class=" ">
-                            Vantage
-                        </a>
-                    </li>
-                    <li class="nav-item border-left flex-grow-1 text-center">
-                        <a class=" ">
-                            Weather
-                        </a>
-                    </li>
-                    <div class="align-self-center">
-                        <input class="d-inline-block form-control border-0 search-bar" placeholder="Search"
-                            type="search">
-                        <label class="d-inline-block"><i class="fas fa-search"></i></label>
-                    </div>
-                </ul>
+                <div class="diagonal-red-bar position-absolute d-lg-block d-none"></div>
+
+                <div class="collapse navbar-collapse justify-content-between" id="#navbarSite">
+                    <ul class="navbar-nav menu-style">
+                        <li class="nav-item flex-grow-1 text-center">
+                            <a class=" ">
+                                U.S.
+                            </a>
+                        </li>
+                        <li class="nav-item border-left flex-grow-1 text-center">
+                            <a class=" ">
+                                World
+                            </a>
+                        </li>
+                        <li class="nav-item border-left flex-grow-1 text-center">
+                            <a class=" ">
+                                Business
+                            </a>
+                        </li>
+                        <li class="nav-item border-left flex-grow-1 text-center">
+                            <a class=" ">
+                                Tech & Science
+                            </a>
+                        </li>
+                        <li class="nav-item border-left flex-grow-1 text-center">
+                            <a class=" ">
+                                Culture
+                            </a>
+                        </li>
+                        <li class="nav-item border-left flex-grow-1 text-center">
+                            <a class=" ">
+                                Newsgeek
+                            </a>
+                        </li>
+                        <li class="nav-item border-left flex-grow-1 text-center">
+                            <a class=" ">
+                                Sports
+                            </a>
+                        </li>
+                        <li class="nav-item border-left flex-grow-1 text-center">
+                            <a class=" ">
+                                Health
+                            </a>
+                        </li>
+                        <li class="nav-item border-left flex-grow-1 text-center">
+                            <a class=" ">
+                                The Debate
+                            </a>
+                        </li>
+                        <li class="nav-item border-left flex-grow-1 text-center">
+                            <a class=" ">
+                                Vantage
+                            </a>
+                        </li>
+                        <li class="nav-item border-left flex-grow-1 text-center">
+                            <a class=" ">
+                                Weather
+                            </a>
+                        </li>
+                        <div class="align-self-center">
+                            <input class="d-inline-block form-control border-0 search-bar" placeholder="Search"
+                                type="search">
+                            <label class="d-inline-block"><i class="fas fa-search"></i></label>
+                        </div>
+                    </ul>
+                </div>
             </nav>
 
         </header>
@@ -1385,20 +1403,14 @@
 
         </main>
         <div class="subscribe-block border-top">
-            <div class="row pt-4">
-                <div class="col-lg-8">
-                    <h7 class="font-weight-bold category-title pt-4"><a href="#">SUBSCRIBE</a>
-                    </h7>
-                </div>
-                <div class="col-lg-4">
-                    <h7 class="font-weight-bold category-title pt-4"><a href="#">NEWSLETTER</a>
-                    </h7>
-                </div>
-            </div>
             <div class="row mt-2">
                 <div class="col-lg-8">
-                    <div class="sub-left d-flex align-items-center">
-                        <div class="position-relative">
+                    <div class="pt-4 pb-3">
+                        <h7 class="font-weight-bold category-title pt-4"><a href="#">SUBSCRIBE</a>
+                        </h7>
+                    </div>
+                    <div class="sub-left d-sm-flex align-items-center">
+                        <div class="position-relative center-small">
                             <img src="img/subscribe-img2.jpg" alt="cover of this weeks edition">
                             <img class="position-absolute sub-img-fix" src="img/subscribe-img1.jpg"
                                 alt="cover of last months edition">
@@ -1415,28 +1427,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 pr-0">
-                    <div class="background-img">
-                        <img src="img/subscribe-img3.png" alt="" class="five-left position-relative h-100">
+                <div class="col-lg-4 col-sm-12 pr-0">
+                    <div class="pt-4 pb-3">
+                        <h7 class="font-weight-bold category-title pt-4"><a href="#">NEWSLETTER</a>
+                        </h7>
                     </div>
-                </div>
-                <div class="col-lg-2 pl-0">
-                    <div class="five-right border h-100">
-                        <h4 class="font-weight-bold mb-3">The Starting 5</h4>
-                        <p>See why nearly a quarter of a million subscribers begin their day with the Starting
-                            5.
-                        </p>
-                        <a href="#"
-                            class="sub-btn btn btn-primary font-weight-bold rounded-0 border-0 px-3 pt-2 pb-2 mt-2 mb-2 sign-up-button">SIGN
-                            UP ></a>
+                    <div class="d-md-flex flex-wrap border">
+                        <div class="col-lg-6 px-0 background-img small-fix">
+                            <img src="img/subscribe-img3.png" alt="" class="five-left position-relative">
+                        </div>
+                        <div class="col-lg-6 five-right notalow">
+                            <h4 class="font-weight-bold mb-3">The Starting 5</h4>
+                            <p>See why nearly a quarter of a million subscribers begin their day with the Starting
+                                5.
+                            </p>
+                            <a href="#"
+                                class="sub-btn btn btn-primary font-weight-bold rounded-0 border-0 px-3 pt-2 pb-2 mt-2 mb-2 sign-up-button">SIGN
+                                UP ></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <footer class="border-top pt-4">
             <div class="row">
-                <div class="col-lg-12 d-flex justify-content-lg-between">
-                    <div class="d-flex align-items-baseline">
+                <div class="col-lg-12 d-flex flex-wrap justify-content-lg-between">
+                    <div class="d-flex flex-wrap align-items-baseline">
                         <a href="#" class="d-block logo-fix">
                             <svg class="footer-logo" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"

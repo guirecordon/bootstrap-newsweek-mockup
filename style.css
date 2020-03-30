@@ -33,7 +33,6 @@ h6 {
 
 .top-header {
   background-color: #f72210;
-  /* font-family: 'Roboto Condensed', sans-serif; */
   font-size: 18px;
   font-weight: bold;
   height: 95px;
@@ -84,7 +83,7 @@ h6 {
   width: 80px;
   border-top: solid 20px #f72210;
   border-left: solid 20px transparent;
-  top: -20px;
+  /* top: -20px; */
   right: 0;
 }
 
@@ -95,6 +94,7 @@ h6 {
   padding-right: 80px;
   margin: 15px 0;
   font-weight: bold;
+  width: 100%;
   /* font-family: 'Roboto Condensed', sans-serif; */
 }
 
@@ -360,10 +360,16 @@ h4 {
 .five-left {
   left: 0;
   transform: translateX(-30%);
+  height: 287px;
 }
 
 .five-right {
   padding: 30px;
+}
+
+.alow {
+  flex-shrink: 1;
+  flex-grow: 1;
 }
 
 footer {
@@ -439,5 +445,59 @@ footer .pow {
 
   .img-bg-contra {
     max-height: 162px;
+  }
+
+  .top-header {
+    background-color: #f72210;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    padding: 20px 10px 15px;
+  }
+
+  .logo-wrapper {
+    height: 100%;
+  }
+
+  .logo {
+    fill: #f3f3f3;
+    width: 120px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sub-right {
+    padding-left: 0;
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  .center-small {
+    text-align: center;
+  }
+
+  .small-fix {
+    overflow-y: hidden;
+    height: 180px;
+  }
+
+  .five-left {
+    width: 520px;
+  }
+
+  .notalow {
+    text-align: center;
+  }
+}
+
+@media (max-width: 432px) {
+  .right-header > a {
+    font-size: 14px;
+  }
+
+  .sign-in-fix {
+    display: inline-block;
+    min-width: 52px;
   }
 }
