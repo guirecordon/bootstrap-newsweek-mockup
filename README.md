@@ -6,8 +6,8 @@ You can find the original project page: (https://www.newsweek.com/)
 
 ![screenshot](images/project-complete-screenshot.png)
 
+![Demo gif](https://j.gifs.com/GvEP6K.gif)
 
-![gif](gif.gif)
 
 ## Built With
 
