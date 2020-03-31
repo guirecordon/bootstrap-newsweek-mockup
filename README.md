@@ -6,7 +6,10 @@ You can find the original project page: (https://www.newsweek.com/)
 
 ![screenshot](images/project-complete-screenshot.png)
 
-<iframe src='//gifs.com/embed/responsive-website-using-bootstrap-4-GvEP6K' frameborder='0' scrolling='no' width='1920px' height='1080px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+<div style='position:relative;padding-bottom:56.262%;'><iframe src="//gifs.com/embed/responsive-website-using-bootstrap-4-GvEP6K" scrolling="no" style="backface-visibility: hidden; transform: scale(1); position: absolute; height: 100%; width: 100%;" width="1022" height="575" frameborder="0"></iframe></div>
+
+
+<a href="https://j.gifs.com/GvEP6K.gif"><img src="https://gifs.com/gif/responsive-website-using-bootstrap-4-GvEP6K"></a>
 
 ## Built With
 
