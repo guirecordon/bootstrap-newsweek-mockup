@@ -22,7 +22,9 @@ You can find the original project page: (https://www.newsweek.com/)
 
 ## Live Demo
 
-[Live Demo Link]()
+Here's a link to github pages if you need to see a preview, but be aware that github pages is not displaying any of the icons added with Font Awesome. I don't know why. Thanks! 
+
+[Live Demo Link](https://guirecordon.github.io/bootstrap-newsweek-mockup/)
 
 ## Authors
 
