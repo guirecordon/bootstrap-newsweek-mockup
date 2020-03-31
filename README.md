@@ -11,6 +11,8 @@ You can find the original project page: (https://www.newsweek.com/)
 
 <a href="https://j.gifs.com/GvEP6K.gif"><img src="https://gifs.com/gif/responsive-website-using-bootstrap-4-GvEP6K"></a>
 
+![](https://gifs.com/gif/responsive-website-using-bootstrap-4-GvEP6K)
+
 ## Built With
 
 - CSS Flex,
