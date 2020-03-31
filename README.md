@@ -36,7 +36,7 @@ You can find the original project page: (https://www.newsweek.com/)
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/guirecordon/bootstrap-newsweek-mockup/issues).
 
 ## Show your support
 
