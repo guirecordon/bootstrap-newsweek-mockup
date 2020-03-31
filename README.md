@@ -46,4 +46,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-A shout-out to my Stand-Up team members (Sunday) ezeilo-su, Brenda (bren2102) and Dan (dansantander) for their tips and encouragement! 
+A shout-out to my Stand-Up team members Sunday (@ezeilo-su), Brenda (@bren2102) and Dan (@dansantander) for their tips and encouragement! 
