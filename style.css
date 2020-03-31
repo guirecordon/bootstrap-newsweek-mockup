@@ -108,6 +108,28 @@ h6 {
   padding: 20px 30px 0 30px;
 }
 
+.gimme-sticky {
+  position: sticky;
+  top: 0;
+}
+
+.gimme-sticky2 {
+  position: sticky;
+  top: 0;
+}
+
+/* .mid-column-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 200px;
+}
+
+.testing-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+} */
+
 /* .stories {
   height: 2963px;
 } */
@@ -500,4 +522,10 @@ footer .pow {
     display: inline-block;
     min-width: 52px;
   }
+}
+
+@media (max-width: 637px) {
+    .sub-img-fix {
+    display: none;
+}
 }
