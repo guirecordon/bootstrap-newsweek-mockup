@@ -4,9 +4,15 @@
 
 You can find the original project page: (https://www.newsweek.com/)
 
-![screenshot](images/project-complete-screenshot.png)
-
 ![Demo gif](gif.gif)
+
+![screenshot mobile](img/screen-shots/mobile.png)
+
+![screenshot tablet](img/screen-shots/ipad.png)
+
+![screenshot desktop](img/screen-shots/desktop.png)
+
+![screenshot details](img/screen-shots/attention2detail.png)
 
 
 ## Built With
