@@ -380,7 +380,7 @@ h4 {
 }
 
 .five-right {
-  padding: 30px;
+  padding: 30px 30px 0 30px;
 }
 
 .alow {
@@ -457,6 +457,18 @@ footer .pow {
   -webkit-text-fill-color: transparent;
 }
 
+@media (max-width: 1342px) {
+  .img-bg-contra {
+    max-height: 232px;
+  }
+}
+
+@media (max-width: 1034px) {
+  .img-bg-contra {
+    max-height: 192px;
+  }
+}
+
 @media (max-width: 991px) {
   .tokyo-girl {
     max-width: 330px;
@@ -487,7 +499,11 @@ footer .pow {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+  .img-bg-contra {
+    max-height: unset;
+  }
+
   .sub-right {
     padding-left: 0;
     padding-top: 60px;
@@ -498,13 +514,18 @@ footer .pow {
     text-align: center;
   }
 
-  .small-fix {
-    overflow-y: hidden;
-    height: 180px;
+  .sub-img-fix {
+    display: none;
   }
 
   .five-left {
-    width: 520px;
+    transform: unset;
+    width: 100%;
+  }
+
+  .small-fix {
+    overflow-y: hidden;
+    height: 180px;
   }
 
   .notalow {
@@ -520,11 +541,5 @@ footer .pow {
   .sign-in-fix {
     display: inline-block;
     min-width: 52px;
-  }
-}
-
-@media (max-width: 637px) {
-  .sub-img-fix {
-    display: none;
   }
 }
