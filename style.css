@@ -500,8 +500,13 @@ footer .pow {
 }
 
 @media (max-width: 768px) {
+    .tokyo-girl {
+    max-width: 100%;
+  }
+  
   .img-bg-contra {
     max-height: unset;
+    width: 100%;
   }
 
   .sub-right {
