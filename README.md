@@ -18,7 +18,8 @@ You can find the original project page: (https://www.newsweek.com/)
 ## Built With
 
 - CSS Flex,
-- HMTL.
+- HMTL,
+- Bootstrap 4.
 
 ## Live Demo
 
